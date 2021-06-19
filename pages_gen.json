@@ -59,6 +59,12 @@
     "templ": "pages/preventive_gynecology.hbs",
     "out": "preventive_gynecology.html"
   },
+  
+  {
+    "title": "Colposcopy",
+    "templ": "pages/colposcopy.hbs",
+    "out": "colposcopy.html"
+  },
   {
     "title": "Oncology",
     "templ": "pages/oncology.hbs",
@@ -68,5 +74,36 @@
     "title": "Menopause Clinic",
     "templ": "pages/menopause_clinic.hbs",
     "out": "menopause_clinic.html"
+  },
+  {
+    "title": "Fitness Center",
+    "templ": "pages/fitness_center.hbs",
+    "out": "fitness_center.html"
+  },
+  {
+    "title": "Diet",
+    "templ": "pages/diet.hbs",
+    "out": "diet.html"
+  },
+  {
+    "title": "AMC",
+    "templ": "pages/amc.hbs",
+    "out": "amc.html"
+  },
+  {
+    "title": "Cosmetology",
+    "templ": "pages/cosmetology.hbs",
+    "out": "cosmetology.html"
+  },
+  {
+    "title": "Dental Care",
+    "templ": "pages/dental_care.hbs",
+    "out": "dental_care.html"
   }
 ]
+
+  
+
+
+
+

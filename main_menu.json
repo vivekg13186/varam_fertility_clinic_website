@@ -39,12 +39,16 @@
             "href": "./dub_management.html"
           },
           {
+            "name":"Colposcopy",
+            "href":"colposcopy.html" 
+          },
+          {
             "name": "Oncology",
             "href": "./oncology.html"
           },
           {
             "name": "Menopause Clinic",
-            "href": "./menopause_clinic"
+            "href": "./menopause_clinic.html"
           }
         ]
       },
@@ -74,27 +78,27 @@
         "href": "./endogynecology.html"
       },
       {
-        "name": "Life Style Servicess",
+        "name": "Life Style Services",
         "child": [
           {
             "name": "Fitness Center",
-            "href": "/"
+            "href": "./fitness_center.html"
           },
           {
             "name": "Diet",
-            "href": "/"
+            "href": "./diet.html"
           },
           {
             "name": "AMC",
-            "href": "/"
+            "href": "./amc.html"
           },
           {
             "name": "Cosmetology",
-            "href": "/"
+            "href": "./cosmetology.html"
           },
           {
             "name": "Dental Care",
-            "href": "/"
+            "href": "./dental_care.html"
           }
         ]
       }
