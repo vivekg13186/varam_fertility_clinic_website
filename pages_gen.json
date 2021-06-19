@@ -1,0 +1,37 @@
+[
+    {
+        "title" : "Achievements",
+        "templ" : "pages/achievements.hbs",
+        "out" : "achievements.html"
+    }
+    ,{
+        "title" : "Fertility Care",
+        "templ" : "pages/fertility_care.hbs",
+        "out" : "fertility_care.html"
+    }
+    ,{
+        "title":"Radiology",
+        "templ" : "pages/radiology.hbs",
+        "out" : "radiology.html"
+    },
+    {
+        "title":"Success Story",
+        "templ" : "pages/mri.hbs",
+        "out" : "mri.html"
+    },
+    {
+        "title":"NICU",
+        "templ" : "pages/nicu.hbs",
+        "out" : "nicu.html"
+    },
+    {
+        "title":"Paediatric",
+        "templ":"pages/paediatric.hbs",
+        "out" :"paediatric.html"
+    },
+    {
+        "title":"Endogynecology",
+        "templ":"pages/endogynecology.hbs",
+        "out" :"endogynecology.html"
+    }
+]

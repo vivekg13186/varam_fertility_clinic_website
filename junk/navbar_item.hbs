@@ -1,0 +1,24 @@
+{{#if menu.child}}
+  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{menu.name}}</a>
+            <ul class="dropdown-menu btn-sm" aria-labelledby="navbarDropdown">
+                {{#each menu.child}}
+                     <li><a class="dropdown-item" href="{{href}}">{{name}}</a></li>
+                {{/each}}
+             </ul>
+         </li>
+{{else if menu.subchild}}
+<li class="nav-item dropdown dropend">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{menu.name}}</a>
+            <ul class="dropdown-menu btn-sm" aria-labelledby="navbarDropdown">
+                {{#each menu.subchild}}
+                     <li><a class="dropdown-item" href="{{href}}">{{name}}</a></li>
+                {{/each}}
+             </ul>
+         </li>
+{{else}}
+<li class="nav-item">
+        <a class="nav-link" aria-current="page" href="{{menu.href}}">{{menu.name}}</a>
+</li>
+{{/if}}
+ 

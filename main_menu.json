@@ -1,0 +1,112 @@
+[
+  {
+    "name": "HOME",
+    "href":"/"
+  },
+  {
+    "name": "SPECIALITIES",
+    "child": [
+      {
+        "name": "Fertility Care",
+        "href": "./fertility_care.html"
+      },
+      {
+        "name": "Pregnancy",
+        "child":[
+          {
+            "name":"menu1"
+          }
+        ]
+      },
+      {
+        "name": "Gynecology Services",
+        "href": "/"
+      },
+      {
+        "name": "Radiology – Imaging Services",
+        "href": "./radiology.html"
+      },
+      {
+        "name": "MRI / MRgFUS",
+        "href": "./mri.html"
+      },
+      {
+        "name": "Neonatal Care (NICU)",
+        "href": "./nicu.html"
+      },
+      {
+        "name": "Paediatrics",
+        "href": "./paediatric.html"
+      },
+      {
+        "name": "Advanced Laparoscopic surgeries",
+        "href": "./endogynecology.html"
+      },
+      {
+        "name": "Life Style Servicess",
+        "href": "/"
+      }
+    ]
+  },
+  {
+    "name": "ACADEMIC INFO",
+    "child": [
+      {
+        "name": "Womens Center Certified Courses",
+        "href": "/"
+      },
+      {
+        "name": "Dr. MGR Medical University Fellowship Courses",
+        "href": "/"
+      },
+      {
+        "name": " FOGSI certified courses",
+        "href": "/"
+      },
+      {
+        "name": "ISAR Embryology Training Courses",
+        "href": "/"
+      }
+    ]
+  },
+
+  {
+    "name": "ABOUT US",
+    "child": [
+      {
+        "name": "Achievements",
+        "href": "./achievements.html"
+      },
+      {
+        "name": "Teams",
+        "href": "/"
+      }
+    ]
+  },
+
+  {
+    "name": "PATIENT INFORMATION",
+    "child": [{ "name": "International Patient", "href": "/" }]
+  },
+  {
+    "name": "MORE",
+    "child": [
+      {
+        "name": "About us",
+        "href": "/"
+      },
+      {
+        "name": "Newsletter",
+        "href": "/"
+      },
+      {
+        "name": "Blog",
+        "href": "/"
+      },
+      {
+        "name": "FAQ",
+        "href": "/"
+      }
+    ]
+  }
+]

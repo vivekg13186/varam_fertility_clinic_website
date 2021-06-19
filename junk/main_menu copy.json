@@ -1,0 +1,206 @@
+[
+  {
+    "name": "HOME",
+    "href" :"/"
+  },
+  {
+    "name": "SPECIALITIES",
+    "child": [
+      {
+        "name": "Fertility Care",
+        "href" :"/"
+      },
+      {
+        "name": "Pregnancy",
+        "child": [
+          {
+            "name": "Antenatal Services",
+            "href" :"/"
+          },
+          {
+            "name": "Maternal Fetal Medicine (High-Risk Pregnancy)",
+            "href" :"/"
+          }
+        ]
+      },
+      {
+        "name": "Gynecology Services",
+        "child": [
+          {
+            "name": "Endogynecology",
+            "href" :"/"
+          },
+          {
+            "name": "Preventive Gynecology",
+            "href" :"/"
+          },
+          {
+            "name": "DUB Management",
+            "href" :"/"
+          },
+          {
+            "name": "Oncology",
+            "href" :"/"
+          },
+          {
+            "name": "Menopause Clinic",
+            "href" :"/"
+          }
+        ]
+      },
+      {
+        "name": "Radiology – Imaging Services",
+        "href" :"/"
+      },
+      {
+        "name": "MRI / MRgFUS",
+        "child": [
+          {
+            "name": "Success Story",
+            "href" :"/"
+          }
+        ]
+      },
+      {
+        "name": "Neonatal Care (NICU)",
+        "href" :"/"
+      },
+      {
+        "name": "Paediatrics",
+        "href" :"/"
+      },
+      {
+        "name": "Advanced Laparoscopic surgeries",
+        "href" :"/"
+      },
+      {
+        "name": "Life Style Servicess",
+        "child": [
+          {
+            "name": "Fitness Center",
+            "href" :"/"
+          },
+          {
+            "name": "Diet",
+            "href" :"/"
+          },
+          {
+            "name": "AMC",
+            "href" :"/"
+          },
+          {
+            "name": "Cosmetology",
+            "href" :"/"
+          },
+          {
+            "name": "Dental Care",
+            "href" :"/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Academic Info",
+    "child": [
+      {
+        "name": "Womens Center Certified Courses",
+        "child": [
+          { "name": " Hysteroscopy " ,
+            "href" :"/"},
+          { "name": " IUI " ,
+            "href" :"/"},
+          { "name": " Colposcopy ",
+            "href" :"/" }
+        ]
+      },
+      {
+        "name": "Dr. MGR Medical University Fellowship Courses",
+        "child": [
+          { "name": "  Reproductive Medicine" ,
+            "href" :"/"},
+          { "name": "  Maternal Fetal Medicine" ,
+            "href" :"/"},
+          { "name": "  Neonatal Intensive Care" ,
+            "href" :"/"},
+          { "name": "  Endo – Gynecology" ,
+            "href" :"/"}
+        ]
+      },
+      {
+        "name": " FOGSI certified courses",
+        "child": [
+          { "name": " Infertility",
+            "href" :"/" },
+          { "name": " Colposcopy ",
+            "href" :"/" },
+          { "name": " Endoscopy " ,
+            "href" :"/"}
+        ]
+      },
+      {
+        "name": "ISAR Embryology Training Courses",
+        "child": [
+          { "name": "  Embryologists",
+            "href" :"/" },
+          { "name": "  IVF Technologists" ,
+            "href" :"/"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "BLOG",
+    "child": [
+      {
+        "name": "The Juncture",
+        "href" :"/"
+      }
+    ]
+  },
+  {
+    "name": "ABOUT US",
+    "child": [
+      {
+        "name": "Achievements",
+        "href" :"/achievement.html"
+      },
+      {
+        "name": "Teams",
+        "href" :"/"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT US",
+    "child": [
+      {
+        "name": "Chennai",
+        "href" :"/"
+      },
+      {
+        "name": "Trichy",
+        "href" :"/"
+      },
+      {
+        "name": "Salem",
+        "href" :"/"
+      }
+    ]
+  },
+  {
+    "name": "FAQ",
+    "child": [{ "name": "Gyneac" ,
+      "href" :"/"}, { "name": "Infertility" ,
+        "href" :"/"}]
+  },
+  {
+    "name": "PATIENT INFORMATION",
+    "child": [{ "name": "International Patient",
+      "href" :"/" }]
+  },
+  {
+    "name": "NEWSLETTER",
+    "href" :"/"
+  }
+]
