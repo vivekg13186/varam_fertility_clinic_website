@@ -1,7 +1,7 @@
 [
   {
     "name": "HOME",
-    "href":"/"
+    "href": "/"
   },
   {
     "name": "SPECIALITIES",
@@ -12,15 +12,41 @@
       },
       {
         "name": "Pregnancy",
-        "child":[
+        "child": [
           {
-            "name":"menu1"
+            "name": "Antenatal Services",
+            "href": "./maternal_care.html"
+          },
+          {
+            "name": "Maternal Fetal Medicine (High-Risk Pregnancy)",
+            "href": "./high_risk_pregnancy.html"
           }
         ]
       },
       {
         "name": "Gynecology Services",
-        "href": "/"
+        "child": [
+          {
+            "name": "Endogynecology",
+            "href": "./endogynecology.html"
+          },
+          {
+            "name": "Preventive Gynecology",
+            "href": "./preventive_gynecology.html"
+          },
+          {
+            "name": "DUB Management",
+            "href": "./dub_management.html"
+          },
+          {
+            "name": "Oncology",
+            "href": "./oncology.html"
+          },
+          {
+            "name": "Menopause Clinic",
+            "href": "./menopause_clinic"
+          }
+        ]
       },
       {
         "name": "Radiology – Imaging Services",
@@ -28,7 +54,12 @@
       },
       {
         "name": "MRI / MRgFUS",
-        "href": "./mri.html"
+        "child": [
+          {
+            "name": "Success Story",
+            "href": "./mri.html"
+          }
+        ]
       },
       {
         "name": "Neonatal Care (NICU)",
@@ -44,7 +75,28 @@
       },
       {
         "name": "Life Style Servicess",
-        "href": "/"
+        "child": [
+          {
+            "name": "Fitness Center",
+            "href": "/"
+          },
+          {
+            "name": "Diet",
+            "href": "/"
+          },
+          {
+            "name": "AMC",
+            "href": "/"
+          },
+          {
+            "name": "Cosmetology",
+            "href": "/"
+          },
+          {
+            "name": "Dental Care",
+            "href": "/"
+          }
+        ]
       }
     ]
   },
@@ -53,23 +105,74 @@
     "child": [
       {
         "name": "Womens Center Certified Courses",
-        "href": "/"
+        "child": [
+          {
+            "name": " Hysteroscopy ",
+            "href": "/"
+          },
+          {
+            "name": " IUI ",
+            "href": "/"
+          },
+          {
+            "name": " Colposcopy ",
+            "href": "/"
+          }
+        ]
       },
       {
         "name": "Dr. MGR Medical University Fellowship Courses",
-        "href": "/"
+        "child": [
+          {
+            "name": "  Reproductive Medicine",
+            "href": "/"
+          },
+          {
+            "name": "  Maternal Fetal Medicine",
+            "href": "/"
+          },
+          {
+            "name": "  Neonatal Intensive Care",
+            "href": "/"
+          },
+          {
+            "name": "  Endo – Gynecology",
+            "href": "/"
+          }
+        ]
       },
       {
         "name": " FOGSI certified courses",
-        "href": "/"
+        "child": [
+          {
+            "name": " Infertility",
+            "href": "/"
+          },
+          {
+            "name": " Colposcopy ",
+            "href": "/"
+          },
+          {
+            "name": " Endoscopy ",
+            "href": "/"
+          }
+        ]
       },
       {
         "name": "ISAR Embryology Training Courses",
-        "href": "/"
+        "child": [
+          {
+            "name": "  Embryologists",
+            "href": "/"
+          },
+          {
+            "name": "  IVF Technologists",
+            "href": "/"
+          }
+        ]
       }
     ]
   },
-
   {
     "name": "ABOUT US",
     "child": [
@@ -83,29 +186,43 @@
       }
     ]
   },
-
   {
     "name": "PATIENT INFORMATION",
-    "child": [{ "name": "International Patient", "href": "/" }]
+    "child": [
+      {
+        "name": "International Patient",
+        "href": "/"
+      }
+    ]
   },
   {
     "name": "MORE",
     "child": [
-      {
-        "name": "About us",
-        "href": "/"
-      },
       {
         "name": "Newsletter",
         "href": "/"
       },
       {
         "name": "Blog",
-        "href": "/"
+        "child": [
+          {
+            "name": "The Juncture",
+            "href": "/"
+          }
+        ]
       },
       {
         "name": "FAQ",
-        "href": "/"
+        "child": [
+          {
+            "name": "Gyneac",
+            "href": "/"
+          },
+          {
+            "name": "Infertility",
+            "href": "/"
+          }
+        ]
       }
     ]
   }

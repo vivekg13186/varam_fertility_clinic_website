@@ -1,37 +1,72 @@
 [
-    {
-        "title" : "Achievements",
-        "templ" : "pages/achievements.hbs",
-        "out" : "achievements.html"
-    }
-    ,{
-        "title" : "Fertility Care",
-        "templ" : "pages/fertility_care.hbs",
-        "out" : "fertility_care.html"
-    }
-    ,{
-        "title":"Radiology",
-        "templ" : "pages/radiology.hbs",
-        "out" : "radiology.html"
-    },
-    {
-        "title":"Success Story",
-        "templ" : "pages/mri.hbs",
-        "out" : "mri.html"
-    },
-    {
-        "title":"NICU",
-        "templ" : "pages/nicu.hbs",
-        "out" : "nicu.html"
-    },
-    {
-        "title":"Paediatric",
-        "templ":"pages/paediatric.hbs",
-        "out" :"paediatric.html"
-    },
-    {
-        "title":"Endogynecology",
-        "templ":"pages/endogynecology.hbs",
-        "out" :"endogynecology.html"
-    }
+  {
+    "title": "Achievements",
+    "templ": "pages/achievements.hbs",
+    "out": "achievements.html"
+  },
+  {
+    "title": "Fertility Care",
+    "templ": "pages/fertility_care.hbs",
+    "out": "fertility_care.html"
+  },
+  {
+    "title": "Radiology",
+    "templ": "pages/radiology.hbs",
+    "out": "radiology.html"
+  },
+  {
+    "title": "Success Story",
+    "templ": "pages/mri.hbs",
+    "out": "mri.html"
+  },
+  {
+    "title": "NICU",
+    "templ": "pages/nicu.hbs",
+    "out": "nicu.html"
+  },
+  {
+    "title": "Paediatric",
+    "templ": "pages/paediatric.hbs",
+    "out": "paediatric.html"
+  },
+  {
+    "title": "Endogynecology",
+    "templ": "pages/endogynecology.hbs",
+    "out": "endogynecology.html"
+  },
+  {
+    "title": "Maternal Care",
+    "templ": "pages/maternal_care.hbs",
+    "out": "maternal_care.html"
+  },
+  {
+    "title": "High Risk Pregnancy",
+    "templ": "pages/high_risk_pregnancy.hbs",
+    "out": "high_risk_pregnancy.html"
+  },
+  {
+    "title": "Endogynecology",
+    "templ": "pages/endogynecology.hbs",
+    "out": "endogynecology.html"
+  },
+  {
+    "title": "Dub Management",
+    "templ": "pages/dub_management.hbs",
+    "out": "dub_management.html"
+  },
+  {
+    "title": "Preventive Gynecology",
+    "templ": "pages/preventive_gynecology.hbs",
+    "out": "preventive_gynecology.html"
+  },
+  {
+    "title": "Oncology",
+    "templ": "pages/oncology.hbs",
+    "out": "oncology.html"
+  },
+  {
+    "title": "Menopause Clinic",
+    "templ": "pages/menopause_clinic.hbs",
+    "out": "menopause_clinic.html"
+  }
 ]

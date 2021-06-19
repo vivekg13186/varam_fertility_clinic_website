@@ -1,27 +1,32 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg   navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><a href="#" class="pull-left"><img class="logo" src="img/logo.png"></a> </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-        <ul class="navbar-nav">
-            <!-- Dropdown -->
-            {{#each menu}}
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            {{name}}
-          </a>
-               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>
-                    {{#each child}}
-                    <li class="dropdown-item">{{name}}</li>
+        <a class="navbar-brand" href="#"><a href="#" class="pull-left"><img class="logo" src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    {{#each menu}}
+                    {{#if this.child}}
+                    <li class="nav-item dropdown" id="myDropdown">
+                        <a class="nav-link dropdown-toggle" href="{{href}}" data-bs-toggle="dropdown">{{name}}</a>
+                        <ul class="submenu dropdown-menu">
+                            {{#each child}}
+                            {{>navbar_item menu=.}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{else}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{href}}"> {{name}} </a>
+                    </li>
+                    {{/if}}
+
                     {{/each}}
                 </ul>
-            </li>
-         {{/each}}
-        </ul>
+            </div>
+            <!-- navbar-collapse.// -->
     </div>
-
-    </div>
+    <!-- container-fluid.// -->
 </nav>

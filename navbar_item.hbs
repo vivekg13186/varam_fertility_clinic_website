@@ -1,4 +1,9 @@
-<li>
-    <a class="dropdown-item" href="#">{{menu.name}}</a>
-
+<li><a class="dropdown-item" href="{{menu.href}}">{{menu.name}}</a>
+{{#if menu.child}}    
+    <ul class="submenu dropdown-menu">
+        {{#each child}}
+            {{>navbar_item menu=.}}
+        {{/each}}
+    </ul>
+{{/if}}
 </li>

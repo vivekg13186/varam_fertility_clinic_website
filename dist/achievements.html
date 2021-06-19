@@ -4,92 +4,133 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/common.css" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link href="css/common.css" rel="stylesheet">
+  
+    <link href="/css/page.css" rel="stylesheet">
   <link href="/css/fa/css/all.css" rel="stylesheet">
-  <link href="/css/page.css" rel="stylesheet">
+  
   <title>Achievements</title>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg   navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><a href="#" class="pull-left"><img class="logo" src="img/logo.png"></a> </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-        <ul class="navbar-nav">
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            HOME
-          </a>
-               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            SPECIALITIES
-          </a>
-               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>
-                    <li class="dropdown-item">Fertility Care</li>
-                    <li class="dropdown-item">Pregnancy</li>
-                    <li class="dropdown-item">Gynecology Services</li>
-                    <li class="dropdown-item">Radiology – Imaging Services</li>
-                    <li class="dropdown-item">MRI / MRgFUS</li>
-                    <li class="dropdown-item">Neonatal Care (NICU)</li>
-                    <li class="dropdown-item">Paediatrics</li>
-                    <li class="dropdown-item">Advanced Laparoscopic surgeries</li>
-                    <li class="dropdown-item">Life Style Servicess</li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            ACADEMIC INFO
-          </a>
-               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>
-                    <li class="dropdown-item">Womens Center Certified Courses</li>
-                    <li class="dropdown-item">Dr. MGR Medical University Fellowship Courses</li>
-                    <li class="dropdown-item"> FOGSI certified courses</li>
-                    <li class="dropdown-item">ISAR Embryology Training Courses</li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            ABOUT US
-          </a>
-               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>
-                    <li class="dropdown-item">Achievements</li>
-                    <li class="dropdown-item">Teams</li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            PATIENT INFORMATION
-          </a>
-               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>
-                    <li class="dropdown-item">International Patient</li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            MORE
-          </a>
-               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>
-                    <li class="dropdown-item">About us</li>
-                    <li class="dropdown-item">Newsletter</li>
-                    <li class="dropdown-item">Blog</li>
-                    <li class="dropdown-item">FAQ</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+        <a class="navbar-brand" href="#"><a href="#" class="pull-left"><img class="logo" src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"> HOME </a>
+                    </li>
 
+                    <li class="nav-item dropdown" id="myDropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">SPECIALITIES</a>
+                        <ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="./fertility_care.html">Fertility Care</a>
+                            </li>                            <li><a class="dropdown-item" href="">Pregnancy</a>
+                                <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="./maternal_care.html">Antenatal Services</a>
+                                        </li>            <li><a class="dropdown-item" href="./high_risk_pregnancy.html">Maternal Fetal Medicine (High-Risk Pregnancy)</a>
+                                        </li>    </ul>
+                            </li>                            <li><a class="dropdown-item" href="">Gynecology Services</a>
+                                <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="./endogynecology.html">Endogynecology</a>
+                                        </li>            <li><a class="dropdown-item" href="/">Preventive Gynecology</a>
+                                        </li>            <li><a class="dropdown-item" href="/">DUB Management</a>
+                                        </li>            <li><a class="dropdown-item" href="/">Oncology</a>
+                                        </li>            <li><a class="dropdown-item" href="/">Menopause Clinic</a>
+                                        </li>    </ul>
+                            </li>                            <li><a class="dropdown-item" href="./radiology.html">Radiology – Imaging Services</a>
+                            </li>                            <li><a class="dropdown-item" href="">MRI / MRgFUS</a>
+                                <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="./mri.html">Success Story</a>
+                                        </li>    </ul>
+                            </li>                            <li><a class="dropdown-item" href="./nicu.html">Neonatal Care (NICU)</a>
+                            </li>                            <li><a class="dropdown-item" href="./paediatric.html">Paediatrics</a>
+                            </li>                            <li><a class="dropdown-item" href="./endogynecology.html">Advanced Laparoscopic surgeries</a>
+                            </li>                            <li><a class="dropdown-item" href="">Life Style Servicess</a>
+                                <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="/">Fitness Center</a>
+                                        </li>            <li><a class="dropdown-item" href="/">Diet</a>
+                                        </li>            <li><a class="dropdown-item" href="/">AMC</a>
+                                        </li>            <li><a class="dropdown-item" href="/">Cosmetology</a>
+                                        </li>            <li><a class="dropdown-item" href="/">Dental Care</a>
+                                        </li>    </ul>
+                            </li>                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown" id="myDropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">ACADEMIC INFO</a>
+                        <ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="">Womens Center Certified Courses</a>
+                                <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="/"> Hysteroscopy </a>
+                                        </li>            <li><a class="dropdown-item" href="/"> IUI </a>
+                                        </li>            <li><a class="dropdown-item" href="/"> Colposcopy </a>
+                                        </li>    </ul>
+                            </li>                            <li><a class="dropdown-item" href="">Dr. MGR Medical University Fellowship Courses</a>
+                                <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="/">  Reproductive Medicine</a>
+                                        </li>            <li><a class="dropdown-item" href="/">  Maternal Fetal Medicine</a>
+                                        </li>            <li><a class="dropdown-item" href="/">  Neonatal Intensive Care</a>
+                                        </li>            <li><a class="dropdown-item" href="/">  Endo – Gynecology</a>
+                                        </li>    </ul>
+                            </li>                            <li><a class="dropdown-item" href=""> FOGSI certified courses</a>
+                                <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="/"> Infertility</a>
+                                        </li>            <li><a class="dropdown-item" href="/"> Colposcopy </a>
+                                        </li>            <li><a class="dropdown-item" href="/"> Endoscopy </a>
+                                        </li>    </ul>
+                            </li>                            <li><a class="dropdown-item" href="">ISAR Embryology Training Courses</a>
+                                <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="/">  Embryologists</a>
+                                        </li>            <li><a class="dropdown-item" href="/">  IVF Technologists</a>
+                                        </li>    </ul>
+                            </li>                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown" id="myDropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">ABOUT US</a>
+                        <ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="./achievements.html">Achievements</a>
+                            </li>                            <li><a class="dropdown-item" href="/">Teams</a>
+                            </li>                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown" id="myDropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">PATIENT INFORMATION</a>
+                        <ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="/">International Patient</a>
+                            </li>                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown" id="myDropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">MORE</a>
+                        <ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="/">Newsletter</a>
+                            </li>                            <li><a class="dropdown-item" href="">Blog</a>
+                                <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="/">The Juncture</a>
+                                        </li>    </ul>
+                            </li>                            <li><a class="dropdown-item" href="">FAQ</a>
+                                <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="/">Gyneac</a>
+                                        </li>            <li><a class="dropdown-item" href="/">Infertility</a>
+                                        </li>    </ul>
+                            </li>                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- navbar-collapse.// -->
     </div>
+    <!-- container-fluid.// -->
 </nav> <nav aria-label="breadcrumb" class="bc">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="/" class="link-light">Home</a></li>
