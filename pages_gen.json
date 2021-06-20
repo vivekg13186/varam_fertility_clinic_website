@@ -163,5 +163,70 @@
     "title" :"International Patient",
     "templ":"pages/international_patient.hbs",
     "out" :"international_patient.html"
+  },{
+    "title" :"Our Team",
+    "templ":"pages/teams.hbs",
+    "out" :"teams.html"
+  },{
+    "title" :"FAQ's",
+    "templ":"pages/faq_gynea.hbs",
+    "out" :"faq_gynea.html"
+  },{
+    "title" :"FAQ's",
+    "templ":"pages/faq_infert.hbs",
+    "out" :"faq_infert.html"
+    
+  },{
+    "title" :"Newsletter",
+    "templ":"pages/newsletter.hbs",
+    "out" :"newsletter.html"
+    
+  },{
+    "title" :"Fertility Service",
+    "templ":"pages/fertility_service.hbs",
+    "out" :"fertility_service.html"
+    
+  },{
+    "title" :"Surgeries",
+    "templ":"pages/surgeries.hbs",
+    "out" :"surgeries.html"
+    
+  },{
+    "title" :"Pregenancy Care",
+    "templ":"pages/pregenancy_care.hbs",
+    "out" :"pregenancy_care.html"
+    
+  },{
+    "title" :"EMI",
+    "templ":"pages/emi.hbs",
+    "out" :"emi.html"
+    
+  },{
+    "title" :"Andrology Center",
+    "templ":"pages/andrology_center.hbs",
+    "out" :"andrology_center.html"
+    
   }
+  ,{
+    "title" :"Physio Therapy",
+    "templ":"pages/physio_therapy.hbs",
+    "out" :"physio_therapy.html"
+    
+  }
+  ,{
+    "title" :"Surgical Cosmetology",
+    "templ":"pages/surgical_cosmetology.hbs",
+    "out" :"surgical_cosmetology.html"
+    
+  }
+  ,{
+    "title" :"Prenatal Class",
+    "templ":"pages/prenatal_class.hbs",
+    "out" :"prenatal_class.html"
+    
+  }
+  
+  
+
+
 ]

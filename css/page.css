@@ -18,6 +18,12 @@
   article p{
     text-align: justify;
   }
+  .breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: .5rem;
+    color: #fff;
+    content: var(--bs-breadcrumb-divider, "/");
+}
   /* stylelint-disable selector-list-comma-newline-after */
 
 .blog-header {

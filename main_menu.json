@@ -1,7 +1,7 @@
 [
   {
     "name": "HOME",
-    "href": "/"
+    "href": "./"
   },
   {
     "name": "SPECIALITIES",
@@ -186,7 +186,7 @@
       },
       {
         "name": "Teams",
-        "href": "/"
+        "href": "./teams.html"
       }
     ]
   },
@@ -204,27 +204,18 @@
     "child": [
       {
         "name": "Newsletter",
-        "href": "/"
-      },
-      {
-        "name": "Blog",
-        "child": [
-          {
-            "name": "The Juncture",
-            "href": "/"
-          }
-        ]
+        "href": "./newsletter.html"
       },
       {
         "name": "FAQ",
         "child": [
           {
             "name": "Gyneac",
-            "href": "/"
+            "href": "./faq_gynea.html"
           },
           {
             "name": "Infertility",
-            "href": "/"
+            "href": "./faq_infert.html"
           }
         ]
       }
