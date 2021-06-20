@@ -59,7 +59,7 @@
     "templ": "pages/preventive_gynecology.hbs",
     "out": "preventive_gynecology.html"
   },
-  
+
   {
     "title": "Colposcopy",
     "templ": "pages/colposcopy.hbs",
@@ -99,11 +99,69 @@
     "title": "Dental Care",
     "templ": "pages/dental_care.hbs",
     "out": "dental_care.html"
+  },
+  {
+    "title": "Hysteroscopy",
+    "templ": "pages/hysteroscopy.hbs",
+    "out": "hysteroscopy.html"
+  },
+  {
+    "title": "IUI",
+    "templ": "pages/iui.hbs",
+    "out": "iui.html"
+  },
+  {
+    "title": "Colposcopy",
+    "templ": "pages/colposcopy_2.hbs",
+    "out": "colposcopy_2.html"
+  },
+  {
+    "title": "Reproductive Medicine",
+    "templ": "pages/reproductive_medicine.hbs",
+    "out": "reproductive_medicine.html"
+  },
+  {
+    "title": "Maternal Fetal Medicine",
+    "templ": "pages/maternal_fetal_medicine.hbs",
+    "out": "maternal_fetal_medicine.html"
+  },
+  {
+    "title": "Neonatal Intensive Care",
+    "templ": "pages/neonatal_intensive_care.hbs",
+    "out": "neonatal_intensive_care.html"
+  },
+  {
+    "title": "Endo Gynecology",
+    "templ": "pages/endo_gynecology.hbs",
+    "out": "endo_gynecology.html"
+  },
+  {
+    "title": "Infertility",
+    "templ": "pages/infertility.hbs",
+    "out": "infertility.html"
+  },
+  {
+    "title": "Colposcopy",
+    "templ": "pages/colposcopy2.hbs",
+    "out": "colposcopy2.html"
+  },
+  {
+    "title": "Endoscopy",
+    "templ": "pages/endoscopy.hbs",
+    "out": "endoscopy.html"
+  },
+  {
+    "title": "Embryologists",
+    "templ": "pages/embryologists.hbs",
+    "out": "embryologists.html"
+  },
+  {
+    "title": "IVF Technologists",
+    "templ": "pages/ivf_technologists.hbs",
+    "out": "ivf_technologists.html"
+  },{
+    "title" :"International Patient",
+    "templ":"pages/international_patient.hbs",
+    "out" :"international_patient.html"
   }
 ]
-
-  
-
-
-
-

@@ -112,15 +112,15 @@
         "child": [
           {
             "name": " Hysteroscopy ",
-            "href": "/"
+            "href": "./hysteroscopy.html"
           },
           {
             "name": " IUI ",
-            "href": "/"
+            "href": "./iui.html"
           },
           {
             "name": " Colposcopy ",
-            "href": "/"
+            "href": "./colposcopy_2.html"
           }
         ]
       },
@@ -129,19 +129,19 @@
         "child": [
           {
             "name": "  Reproductive Medicine",
-            "href": "/"
+            "href": "./reproductive_medicine.html"
           },
           {
             "name": "  Maternal Fetal Medicine",
-            "href": "/"
+            "href": "./maternal_fetal_medicine.html"
           },
           {
             "name": "  Neonatal Intensive Care",
-            "href": "/"
+            "href": "./neonatal_intensive_care.html"
           },
           {
             "name": "  Endo – Gynecology",
-            "href": "/"
+            "href": "./endo_gynecology.html"
           }
         ]
       },
@@ -150,15 +150,15 @@
         "child": [
           {
             "name": " Infertility",
-            "href": "/"
+            "href": "./infertility.html"
           },
           {
             "name": " Colposcopy ",
-            "href": "/"
+            "href": "./colposcopy2.html"
           },
           {
             "name": " Endoscopy ",
-            "href": "/"
+            "href": "./endoscopy.html"
           }
         ]
       },
@@ -167,11 +167,11 @@
         "child": [
           {
             "name": "  Embryologists",
-            "href": "/"
+            "href": "./embryologists.html"
           },
           {
             "name": "  IVF Technologists",
-            "href": "/"
+            "href": "./ivf_technologists.html"
           }
         ]
       }
@@ -195,7 +195,7 @@
     "child": [
       {
         "name": "International Patient",
-        "href": "/"
+        "href": "./international_patient.html"
       }
     ]
   },

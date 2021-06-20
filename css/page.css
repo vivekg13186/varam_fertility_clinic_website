@@ -15,7 +15,9 @@
     margin-right:10%;
     margin-top: 1%;
   }
- 
+  article p{
+    text-align: justify;
+  }
   /* stylelint-disable selector-list-comma-newline-after */
 
 .blog-header {
