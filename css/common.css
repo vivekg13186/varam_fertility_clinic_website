@@ -27,3 +27,51 @@
 
   .tab { text-indent:40px }
   .tab2 { text-indent:80px }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #3150a2!important;
+    font-weight: 600;
+    font-size: small;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #fea38e!important;
+}
+
+.dropdown-item{
+	color: #818181!important;
+    font-size: 14px;
+}
+
+#mytheme .btn{
+  border-radius: 22px;
+  line-height: 27px;
+    font-weight: 900;
+    font-style: normal;
+    border-style: solid;
+    background-color: #3150a2;
+    color: #ffffff;
+    border-color: #3150a2;
+    font-size: 13px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+#mytheme .btn:hover{
+  border-color: #fea38e;
+  background-color: #fea38e;
+}
+#mytheme .featurette-heading{
+  font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #3150a2;
+}
+#mytheme h3{
+    color: #3150a2;
+}
+
+#mytheme p,#mytheme li{
+  color: #7f7f7f;
+    font-size: 15px;
+    line-height: 23px;
+}
