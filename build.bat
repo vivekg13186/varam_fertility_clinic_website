@@ -1,4 +1,4 @@
 node build.js
-mv ./img ./dist
-mv ./js ./dist
-mv ./css ./dist
+move ./img ./dist
+move ./js ./dist
+move ./css ./dist
